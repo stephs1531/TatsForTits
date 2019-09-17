@@ -32,6 +32,10 @@ a:hover {
 
 }
 
+p {
+  font-size: 1.3em;
+}
+
 .logo-image {
   margin: 0 auto;
   padding-top: 30px;
@@ -45,22 +49,38 @@ a:hover {
 }
 
 .article {
-  width: 50%;
-  margin: 0 auto;
+  margin-right: 0px!important;
+  margin-left: auto;
 }
 
-/* .article-image {
-  padding-right: 5%;
-} */
+.article-image {
+  margin-left: 0px!important;
+  margin-right: auto;
+}
 
 
 
 .why-tats {
-  display: flex;
   justify-content: space-around;
-  margin: 0 auto;
+  margin: 0 auto!important;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .tats-headline {
   text-align: right;
+}
+
+.button-container {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.button {
+  padding: 10px 15px 10px 15px;
+  background-color: #ffffff;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 1.3em;
 }
