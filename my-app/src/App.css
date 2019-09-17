@@ -1,0 +1,66 @@
+.jumbotron {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  background: url(images/jumbotronImage_T.jpg) center no-repeat
+}
+
+/* make background image "transparent" */
+
+
+ul {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+li {
+  padding: 40px;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: white;
+  background: url(images/buttonBG.png) center no-repeat;
+  background-size:100%;
+
+}
+
+.logo-image {
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.tagline {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 1.5em;
+}
+
+.article {
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* .article-image {
+  padding-right: 5%;
+} */
+
+
+
+.why-tats {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.tats-headline {
+  text-align: right;
+}
